@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mary Alysia Suryani - Portofolio & Profesional</title>
+    <title>Mary Alysia Suryani - Professional & Versatile Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .fade-slide {
+            transition: opacity 1s ease-in-out;
         }
     </style>
 </head>
@@ -18,12 +21,12 @@
     <header class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
         <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
             <a href="#" class="text-xl font-bold tracking-tight text-teal-400">Mary Alysia Suryani</a>
-            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+            <nav class="hidden md:flex items-center space-x-6 text-sm font-medium text-slate-300">
                 <a href="#tentang" class="hover:text-teal-400 transition-colors">Tentang</a>
+                <a href="#jalur-karier" class="hover:text-teal-400 transition-colors">Fokus Keahlian</a>
                 <a href="#pengalaman" class="hover:text-teal-400 transition-colors">Pengalaman</a>
-                <a href="#proyek" class="hover:text-teal-400 transition-colors">Proyek & Publikasi</a>
+                <a href="#proyek" class="hover:text-teal-400 transition-colors">Proyek</a>
                 <a href="#sertifikasi" class="hover:text-teal-400 transition-colors">Sertifikasi</a>
-                <a href="#keahlian" class="hover:text-teal-400 transition-colors">Keahlian</a>
             </nav>
             <a href="#kontak" class="hidden sm:inline-flex items-center justify-center px-4 py-2 text-sm font-semibold text-slate-950 bg-teal-400 rounded-full hover:bg-teal-300 transition-all">Hubungi Saya</a>
         </div>
@@ -37,14 +40,14 @@
                     <span class="w-2 h-2 rounded-full bg-teal-400 animate-pulse"></span> Lulusan Terbaik D3 Telekomunikasi PNJ • IPK 3.93/4.00
                 </div>
                 <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
-                    Radio Frequency & System Engineer Profesional
+                    Versatile Engineer & Fresh Graduate Profesional
                 </h1>
                 <p class="text-lg sm:text-xl text-slate-400 mb-10 max-w-2xl mx-auto font-normal leading-relaxed">
-                    Berpengalaman dalam optimasi jaringan telekomunikasi seluler, perancangan sistem, infrastruktur jaringan, integrasi internet of things, serta analisis performa berbasis standar industri.
+                    Terbuka untuk peluang karier sebagai <span class="text-teal-400 font-semibold">RF Engineer</span>, <span class="text-teal-400 font-semibold">System Engineer</span>, <span class="text-teal-400 font-semibold">Network Infrastructure & Operations</span>, serta pengembangan sistem IoT & Software.
                 </p>
                 <div class="flex flex-wrap items-center justify-center gap-4">
-                    <a href="#proyek" class="px-7 py-3.5 rounded-full bg-teal-400 text-slate-950 font-bold hover:bg-teal-300 transition-all shadow-lg shadow-teal-500/20">Lihat Portofolio</a>
-                    <a href="#kontak" class="px-7 py-3.5 rounded-full bg-slate-900 border border-slate-800 text-slate-200 font-bold hover:bg-slate-800 hover:border-slate-700 transition-all">Kontak Profesional</a>
+                    <a href="#jalur-karier" class="px-7 py-3.5 rounded-full bg-teal-400 text-slate-950 font-bold hover:bg-teal-300 transition-all shadow-lg shadow-teal-500/20">Jelajahi Keahlian Saya</a>
+                    <a href="#kontak" class="px-7 py-3.5 rounded-full bg-slate-900 border border-slate-800 text-slate-200 font-bold hover:bg-slate-800 hover:border-slate-700 transition-all">Kontak / Unduh CV</a>
                 </div>
                 <div class="flex items-center justify-center gap-6 mt-12 text-slate-400 text-xl">
                     <a href="https://linkedin.com/in/maryalysiasuryani/" target="_blank" class="hover:text-teal-400 transition-colors"><i class="fab fa-linkedin"></i></a>
@@ -54,45 +57,141 @@
             </div>
         </section>
 
+        <!-- TENTANG SAYA DENGAN SLIDESHOW FOTO BERHIAS -->
         <section id="tentang" class="py-24 px-6 border-t border-slate-900 bg-slate-950/50">
-            <div class="max-w-4xl mx-auto">
-                <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white mb-8 flex items-center gap-3">
+            <div class="max-w-5xl mx-auto">
+                <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white mb-12 flex items-center gap-3">
                     <span class="text-teal-400">01.</span> Tentang Saya
                 </h2>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
-                    <div class="md:col-span-2 space-y-4 text-slate-300 leading-relaxed">
-                        <p>
-                            Saya adalah lulusan terbaik Diploma 3 Telekomunikasi Politeknik Negeri Jakarta dengan IPK 3,93/4,00. Saya didukung oleh sertifikasi kompetensi nasional BNSP Radio Frequency Planner, pelatihan internasional 5G, dan pengalaman langsung sebagai RF engineer melalui magang industri di PT Nexwave.
-                        </p>
-                        <p>
-                            Saya terbiasa melakukan pemantauan walk test, analisis logfile, evaluasi KPI jaringan MOCN, serta perancangan sistem jaringan komputer dan internet of things. Memiliki kemampuan bahasa Inggris dengan skor TOEIC 880/990, saya siap berkontribusi secara optimal dalam keandalan infrastruktur teknologi dan telekomunikasi.
-                        </p>
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
+                    
+                    <!-- KOTAK FOTO DENGAN HIASAN SLIDESHOW OTOMATIS -->
+                    <div class="md:col-span-5 flex justify-center">
+                        <div class="relative w-64 h-80 sm:w-72 sm:h-96">
+                            <!-- Hiasan Bingkai Belakang -->
+                            <div class="absolute -inset-2 rounded-2xl bg-gradient-to-tr from-teal-500 to-cyan-500 opacity-30 blur-lg"></div>
+                            <div class="absolute inset-0 rounded-2xl border-2 border-teal-500/40 bg-slate-900 shadow-2xl overflow-hidden p-2">
+                                <div class="relative w-full h-full rounded-xl overflow-hidden bg-slate-950">
+                                    
+                                    <!-- ========================================================== -->
+                                    <!-- PETUNJUK: MASUKKAN FOTO ANDA DI SINI (Ubah src sesuai nama file foto lokal kamu) -->
+                                    <!-- ========================================================== -->
+                                    <img src="foto-1.jpg" alt="Mary Alysia Suryani 1" class="profile-slide absolute inset-0 w-full h-full object-cover opacity-100 fade-slide">
+                                    <img src="foto-2.jpg" alt="Mary Alysia Suryani 2" class="profile-slide absolute inset-0 w-full h-full object-cover opacity-0 fade-slide">
+                                    <img src="foto-3.jpg" alt="Mary Alysia Suryani 3" class="profile-slide absolute inset-0 w-full h-full object-cover opacity-0 fade-slide">
+                                    <!-- (Catatan: Jika foto belum ada, script JS otomatis menampilkan inisial profesional di bawah) -->
+                                    <div class="absolute inset-0 flex flex-col items-center justify-center bg-slate-900 text-slate-400 p-4 text-center fallback-avatar">
+                                        <i class="fas fa-user-tie text-5xl text-teal-400 mb-3"></i>
+                                        <p class="text-xs font-semibold text-slate-300">Mary Alysia Suryani</p>
+                                        <p class="text-[10px] text-slate-500 mt-1">Letakkan file foto-1.jpg di folder proyek</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- Aksen Hiasan Sudut Profesional -->
+                            <div class="absolute -top-3 -left-3 w-6 h-6 border-t-2 border-l-2 border-teal-400"></div>
+                            <div class="absolute -bottom-3 -right-3 w-6 h-6 border-b-2 border-r-2 border-teal-400"></div>
+                        </div>
                     </div>
-                    <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl space-y-4">
-                        <h3 class="font-bold text-white text-base">Informasi Utama</h3>
-                        <div class="space-y-3 text-sm text-slate-400">
-                            <div>
-                                <span class="block text-slate-500 text-xs">Lokasi</span>
-                                <span class="text-slate-200">Jakarta, Indonesia</span>
-                            </div>
-                            <div>
-                                <span class="block text-slate-500 text-xs">Pendidikan</span>
-                                <span class="text-slate-200">D3 Telekomunikasi, PNJ</span>
-                            </div>
-                            <div>
-                                <span class="block text-slate-500 text-xs">Sertifikasi Utama</span>
-                                <span class="text-slate-200">BNSP RF Planner & TOEIC 880</span>
-                            </div>
+
+                    <!-- DESKRIPSI -->
+                    <div class="md:col-span-7 space-y-4 text-slate-300 leading-relaxed">
+                        <p>
+                            Halo! Saya <strong class="text-white">Mary Alysia Suryani</strong>, lulusan terbaik Diploma 3 Telekomunikasi Politeknik Negeri Jakarta dengan IPK <strong class="text-teal-400">3,93 / 4,00</strong>. Sebagai seorang *fresh graduate* yang adaptif dan antusias tinggi, saya memiliki fondasi kuat yang menjembatani keahlian telekomunikasi nirkabel, jaringan komputer, infrastruktur sistem, hingga pengembangan IoT dan pemrograman.
+                        </p>
+                        <p>
+                            Didukung sertifikasi nasional BNSP Radio Frequency Planner, pelatihan internasional 5G dari Tiongkok, serta pengalaman magang di PT Nexwave, saya siap berkontribusi secara fleksibel di berbagai posisi teknik seperti <strong class="text-white">RF Engineer</strong>, <strong class="text-white">System Engineer</strong>, <strong class="text-white">Network Operations</strong>, maupun <strong class="text-white">IT/Software Support</strong>.
+                        </p>
+                        <div class="pt-4 flex flex-wrap gap-3">
+                            <span class="px-3 py-1 rounded-md bg-slate-900 border border-slate-800 text-xs text-teal-400 font-medium">IPK 3.93</span>
+                            <span class="px-3 py-1 rounded-md bg-slate-900 border border-slate-800 text-xs text-teal-400 font-medium">BNSP Certified</span>
+                            <span class="px-3 py-1 rounded-md bg-slate-900 border border-slate-800 text-xs text-teal-400 font-medium">TOEIC 880</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- FOKUS JALUR KARIER / MULTI-TRACK POTENTIAL -->
+        <section id="jalur-karier" class="py-24 px-6 border-t border-slate-900">
+            <div class="max-w-5xl mx-auto">
+                <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white mb-4 flex items-center gap-3">
+                    <span class="text-teal-400">02.</span> Fokus Keahlian & Jalur Karier
+                </h2>
+                <p class="text-slate-400 mb-12 max-w-2xl">
+                    Fleksibilitas kompetensi saya dirancang untuk memenuhi berbagai kebutuhan industri teknologi dan telekomunikasi modern:
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-teal-500/50 transition-all">
+                        <div class="w-12 h-12 rounded-xl bg-teal-500/10 flex items-center justify-center text-teal-400 text-xl mb-4">
+                            <i class="fas fa-broadcast-tower"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">Radio Frequency (RF) & Seluler</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-4">
+                            Optimalisasi jaringan MOCN, walk test & analisis logfile (Genex Assistant Lite), perancangan seluler 2G/4G/5G, perencanaan site menggunakan Atoll & CST Studio Suite.
+                        </p>
+                        <div class="flex flex-wrap gap-2 text-xs text-slate-400">
+                            <span class="bg-slate-950 px-2 py-1 rounded">Atoll</span>
+                            <span class="bg-slate-950 px-2 py-1 rounded">CST Studio</span>
+                            <span class="bg-slate-950 px-2 py-1 rounded">Genex Assistant</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-teal-500/50 transition-all">
+                        <div class="w-12 h-12 rounded-xl bg-teal-500/10 flex items-center justify-center text-teal-400 text-xl mb-4">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">System & Network Infrastructure</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-4">
+                            Konfigurasi Routing & Switching, MikroTik, Cisco, arsitektur Metro Ethernet, manajemen jaringan komputer, DDI, serat optik (OTDR, Splicing), serta troubleshooting handal.
+                        </p>
+                        <div class="flex flex-wrap gap-2 text-xs text-slate-400">
+                            <span class="bg-slate-950 px-2 py-1 rounded">Cisco Packet Tracer</span>
+                            <span class="bg-slate-950 px-2 py-1 rounded">Wireshark</span>
+                            <span class="bg-slate-950 px-2 py-1 rounded">MikroTik</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-teal-500/50 transition-all">
+                        <div class="w-12 h-12 rounded-xl bg-teal-500/10 flex items-center justify-center text-teal-400 text-xl mb-4">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">IoT & Software Development</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-4">
+                            Perancangan perangkat keras & mikrokontroler (ESP32, Arduino), protokol MQTT, Docker container, basis data MySQL/Firebase, hingga pemrograman C++, Python, PHP, dan JavaScript.
+                        </p>
+                        <div class="flex flex-wrap gap-2 text-xs text-slate-400">
+                            <span class="bg-slate-950 px-2 py-1 rounded">ESP32 & MQTT</span>
+                            <span class="bg-slate-950 px-2 py-1 rounded">Docker</span>
+                            <span class="bg-slate-950 px-2 py-1 rounded">Python / PHP</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-teal-500/50 transition-all">
+                        <div class="w-12 h-12 rounded-xl bg-teal-500/10 flex items-center justify-center text-teal-400 text-xl mb-4">
+                            <i class="fas fa-satellite"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">Data Analytics & GIS</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-4">
+                            Pengembangan dataset spasial satelit (NOAA), machine learning deteksi objek (YOLOv8), pengolahan citra QGIS & MATLAB untuk pemantauan meteorologi dan geospasial.
+                        </p>
+                        <div class="flex flex-wrap gap-2 text-xs text-slate-400">
+                            <span class="bg-slate-950 px-2 py-1 rounded">YOLOv8</span>
+                            <span class="bg-slate-950 px-2 py-1 rounded">QGIS</span>
+                            <span class="bg-slate-950 px-2 py-1 rounded">MATLAB</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="pengalaman" class="py-24 px-6 border-t border-slate-900">
-            <div class="max-w-4xl mx-auto">
+        <!-- PENGALAMAN PROFESIONAL -->
+        <section id="pengalaman" class="py-24 px-6 border-t border-slate-900 bg-slate-950/50">
+            <div class="max-w-5xl mx-auto">
                 <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white mb-12 flex items-center gap-3">
-                    <span class="text-teal-400">02.</span> Pengalaman Profesional
+                    <span class="text-teal-400">03.</span> Pengalaman Profesional
                 </h2>
                 <div class="border-l border-slate-800 ml-4 pl-6 space-y-12">
                     <div class="relative">
@@ -103,7 +202,7 @@
                         </div>
                         <p class="text-sm font-medium text-slate-400 mb-4">PT Nexwave • Jakarta Selatan, DKI Jakarta</p>
                         <ul class="space-y-3 text-slate-300 text-sm leading-relaxed list-disc list-inside">
-                            <li>Mengevaluasi kesesuaian parameter jaringan MOCN terhadap standar KPI di berbagai lokasi IBC dengan memantau pelaksanaan walk test melalui whatsapp dan menganalisis logfile menggunakan genex assistant lite.</li>
+                            <li>Mengevaluasi kesesuaian parameter jaringan MOCN terhadap standar KPI di berbagai lokasi IBC dengan memantau pelaksanaan walk test melalui WhatsApp dan menganalisis logfile menggunakan Genex Assistant Lite.</li>
                             <li>Memastikan keandalan mobilitas pengguna dan kelancaran transisi teknologi secara komprehensif melalui analisis hasil pengujian handover dan pengujian CSFB.</li>
                             <li>Menjamin kualitas layanan akhir jaringan dengan mengidentifikasi anomali teknis lapangan, melaporkan temuan kepada tim RNO, serta menyusun dokumen validasi berupa laporan SSH dan PAC.</li>
                         </ul>
@@ -112,76 +211,55 @@
             </div>
         </section>
 
-        <section id="proyek" class="py-24 px-6 border-t border-slate-900 bg-slate-950/50">
-            <div class="max-w-4xl mx-auto">
+        <!-- PROYEK & PUBLIKASI LENGKAP -->
+        <section id="proyek" class="py-24 px-6 border-t border-slate-900">
+            <div class="max-w-5xl mx-auto">
                 <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white mb-12 flex items-center gap-3">
-                    <span class="text-teal-400">03.</span> Proyek & Publikasi
+                    <span class="text-teal-400">04.</span> Proyek Unggulan & Publikasi
                 </h2>
-                <div class="grid grid-cols-1 gap-8">
+                <div class="grid grid-cols-1 gap-6">
                     
                     <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-teal-500/50 transition-all">
                         <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-3">
-                            <h3 class="text-lg font-bold text-white">Sistem Smart PJU Tenaga Surya dan Deteksi Kerusakan Lampu</h3>
-                            <span class="text-xs font-semibold px-3 py-1 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20">Tugas Akhir • 4.00/4.00</span>
+                            <h3 class="text-lg font-bold text-white">Sistem Smart PJU Tenaga Surya & IoT (Tugas Akhir)</h3>
+                            <span class="text-xs font-semibold px-3 py-1 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20">Nilai: 4.00/4.00</span>
                         </div>
                         <p class="text-xs text-slate-400 mb-4">Politeknik Negeri Jakarta (Feb 2026 - Jul 2026)</p>
                         <p class="text-sm text-slate-300 leading-relaxed">
-                            Merancang prototipe smart PJU adaptif berbasis iot menggunakan mikrokontroler esp32 yang dilengkapi fitur deteksi kerusakan lampu otomatis melalui sensor ina219. Mengimplementasikan protokol mqtt via modul seluler gsm sim800l dan private cloud server berbasis docker untuk kendali jarak jauh melalui aplikasi android, serta mengevaluasi qos jaringan gprs dengan packet loss 0% dan latensi stabil.
+                            Merancang prototipe smart PJU adaptif berbasis mikrokontroler ESP32, sensor INA219, protokol MQTT via GSM SIM800L, serta Docker cloud server untuk kendali aplikasi android dengan QoS GPRS stabil (packet loss 0%).
                         </p>
                     </div>
 
                     <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-teal-500/50 transition-all">
                         <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-3">
-                            <h3 class="text-lg font-bold text-white">Perencanaan dan Dimensi Jaringan Telekomunikasi</h3>
-                            <span class="text-xs font-semibold px-3 py-1 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20">Proyek Individu • 4.00/4.00</span>
+                            <h3 class="text-lg font-bold text-white">Perancangan & Konfigurasi Jaringan Metro Ethernet</h3>
+                            <span class="text-xs font-semibold px-3 py-1 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20">Praktik Perawatan • 4.00/4.00</span>
                         </div>
-                        <p class="text-xs text-slate-400 mb-4">Politeknik Negeri Jakarta (Jun 2025)</p>
+                        <p class="text-xs text-slate-400 mb-4">Politeknik Negeri Jakarta (Mei 2025)</p>
                         <p class="text-sm text-slate-300 leading-relaxed">
-                            Merancang dimensi jaringan komunikasi suara pstn dan seluler 2g di Kota Magelang untuk melayani lebih dari 128.000 pelanggan. Memproyeksikan pertumbuhan trafik, merancang topologi full mesh 10 sentral lokal, menghitung kebutuhan kanal menggunakan formula erlang b, serta mengevaluasi efisiensi spektrum melalui metode fixed channel allocation.
+                            Mengonfigurasi router dalam arsitektur Metro Ethernet topologi bus menggunakan static routing, analisis paket data, dan troubleshooting konektivitas menggunakan Wireshark & Net Tools.
                         </p>
                     </div>
 
                     <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-teal-500/50 transition-all">
                         <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-3">
-                            <h3 class="text-lg font-bold text-white">Pembuatan Dataset Satelit Tervalidasi Spasial untuk Deteksi Awan Cumulonimbus</h3>
+                            <h3 class="text-lg font-bold text-white">Pembuatan Dataset Satelit Tervalidasi Spasial untuk Deteksi Awan</h3>
                             <span class="text-xs font-semibold px-3 py-1 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20">Publikasi Konferensi Internasional iCAST-ES</span>
                         </div>
                         <p class="text-xs text-slate-400 mb-4">PNJ (Des 2025)</p>
                         <p class="text-sm text-slate-300 leading-relaxed">
-                            Mengembangkan dataset citra satelit spasial dari noaa-18 dan noaa-19 untuk klasifikasi awan menggunakan perangkat lunak labelimg, serta menerapkan algoritma yolov8 untuk mendeteksi struktur awan cumulonimbus secara otomatis guna mendukung pemantauan meteorologi.
+                            Mengembangkan dataset citra satelit NOAA-18/19 menggunakan LabelImg serta menerapkan YOLOv8 untuk deteksi otomatis struktur awan Cumulonimbus demi keselamatan penerbangan.
                         </p>
                     </div>
 
                     <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-teal-500/50 transition-all">
                         <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-3">
                             <h3 class="text-lg font-bold text-white">Perancangan Antena Mikrostrip Rectangular Crab Patch</h3>
-                            <span class="text-xs font-semibold px-3 py-1 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20">Publikasi Jurnal Spektral</span>
+                            <span class="text-xs font-semibold px-3 py-1 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20">Publikasi Jurnal Ilmiah Spektral</span>
                         </div>
                         <p class="text-xs text-slate-400 mb-4">Politeknik Negeri Jakarta (Okt 2025)</p>
                         <p class="text-sm text-slate-300 leading-relaxed">
-                            Merancang dan memfabrikasi antena mikrostrip rectangular crab patch untuk penerima sinyal 4g pada frekuensi 2,3 ghz dengan simulasi performa menggunakan cst studio suite yang mencapai return loss sebesar -46,26 db dan vswr 1,009.
-                        </p>
-                    </div>
-
-                    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-teal-500/50 transition-all">
-                        <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-3">
-                            <h3 class="text-lg font-bold text-white">Perancangan dan Simulasi Jaringan 4G LTE Menggunakan Atoll</h3>
-                            <span class="text-xs font-semibold px-3 py-1 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20">Praktik Komunikasi Radio • 4.00/4.00</span>
-                        </div>
-                        <p class="text-xs text-slate-400 mb-4">Politeknik Negeri Jakarta (Feb 2025)</p>
-                        <p class="text-sm text-slate-300 leading-relaxed">
-                            Merancang dan mensimulasikan jaringan 4g lte pada spektrum 1800 mhz di wilayah Universitas Pendidikan Indonesia Bandung menggunakan atoll, menganalisis parameter rsrp, sinr, dan throughput menggunakan model propagasi cost-hata, serta melakukan alokasi pci otomatis.
-                        </p>
-                    </div>
-
-                    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-teal-500/50 transition-all">
-                        <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-3">
-                            <h3 class="text-lg font-bold text-white">Perancangan dan Konfigurasi Jaringan Metro Ethernet</h3>
-                            <span class="text-xs font-semibold px-3 py-1 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20">Praktik Perawatan & Perbaikan • 4.00/4.00</span>
-                        </div>
-                        <p class="text-xs text-slate-400 mb-4">Politeknik Negeri Jakarta (Mei 2025)</p>
-                        <p class="text-sm text-slate-300 leading-relaxed">
-                            Merancang dan mengonfigurasi perangkat router dalam arsitektur jaringan metro ethernet topologi bus menggunakan static routing, serta melakukan pemantauan konektivitas dan troubleshooting menggunakan ping test, net tools, dan wireshark.
+                            Merancang dan memfabrikasi antena penerima 4G 2,3 GHz menggunakan CST Studio Suite dengan pencapaian return loss -46,26 dB dan VSWR 1,009.
                         </p>
                     </div>
 
@@ -189,51 +267,27 @@
             </div>
         </section>
 
-        <section id="sertifikasi" class="py-24 px-6 border-t border-slate-900">
-            <div class="max-w-4xl mx-auto">
+        <!-- SERTIFIKASI & KONTAK -->
+        <section id="sertifikasi" class="py-24 px-6 border-t border-slate-900 bg-slate-950/50">
+            <div class="max-w-5xl mx-auto">
                 <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white mb-12 flex items-center gap-3">
-                    <span class="text-teal-400">04.</span> Sertifikasi & Pelatihan
+                    <span class="text-teal-400">05.</span> Sertifikasi & Pelatihan Resmi
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
                         <h3 class="font-bold text-white mb-2">TOEIC (880/990)</h3>
-                        <p class="text-xs text-teal-400 font-semibold mb-3">Educational Testing Service (2026)</p>
-                        <p class="text-sm text-slate-400 leading-relaxed">Validasi tingkat kemahiran intermediate untuk komunikasi berbahasa inggris di lingkungan kerja profesional.</p>
+                        <p class="text-xs text-teal-400 font-semibold mb-3">ETS (2026)</p>
+                        <p class="text-sm text-slate-400 leading-relaxed">Kemahiran bahasa Inggris profesional tingkat intermediate.</p>
                     </div>
                     <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
                         <h3 class="font-bold text-white mb-2">Radio Frequency Planner</h3>
                         <p class="text-xs text-teal-400 font-semibold mb-3">BNSP (2026)</p>
-                        <p class="text-sm text-slate-400 leading-relaxed">Sertifikasi kompetensi nasional untuk perencanaan, perancangan, dan optimasi jaringan telekomunikasi seluler.</p>
+                        <p class="text-sm text-slate-400 leading-relaxed">Sertifikasi kompetensi nasional perencanaan seluler industri.</p>
                     </div>
                     <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
                         <h3 class="font-bold text-white mb-2">Introduction to 5G Communication</h3>
                         <p class="text-xs text-teal-400 font-semibold mb-3">Chongqing Polytechnic (2026)</p>
-                        <p class="text-sm text-slate-400 leading-relaxed">Pelatihan internasional mengenai konsep dasar komunikasi 5g, arsitektur base station, dan survei lokasi.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="keahlian" class="py-24 px-6 border-t border-slate-900 bg-slate-950/50">
-            <div class="max-w-4xl mx-auto">
-                <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white mb-12 flex items-center gap-3">
-                    <span class="text-teal-400">05.</span> Keahlian & Teknologi
-                </h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
-                        <h3 class="font-bold text-white mb-4 text-base">Keahlian Teknis & Jaringan</h3>
-                        <p class="text-sm text-slate-300 leading-relaxed">
-                            Network routing & switching, mikrotik, cisco, basic linux & windows, database, sql, perancangan sistem, iot, mqtt, serat optik (*splicing*, otdr, opm), basic fo, ftth & fttx planning, *crimping*, radio frequency planning, network planning & dimensioning.
-                        </p>
-                    </div>
-                    <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
-                        <h3 class="font-bold text-white mb-4 text-base">Perangkat Lunak & Bahasa Pemrograman</h3>
-                        <p class="text-sm text-slate-300 leading-relaxed mb-4">
-                            Cisco packet tracer, wireshark, winbox, net tools, arduino ide, atoll, genex assistant lite, cst studio suite, qgis, autocad, matlab, google earth, mysql, firebase, microsoft office, google workspace.
-                        </p>
-                        <p class="text-sm text-slate-300 leading-relaxed">
-                            <strong>Bahasa Pemrograman:</strong> C++, python, html, css, javascript, php.
-                        </p>
+                        <p class="text-sm text-slate-400 leading-relaxed">Pelatihan internasional arsitektur 5G dan base station.</p>
                     </div>
                 </div>
             </div>
@@ -241,9 +295,9 @@
 
         <section id="kontak" class="py-24 px-6 border-t border-slate-900 text-center">
             <div class="max-w-2xl mx-auto">
-                <h2 class="text-3xl font-bold tracking-tight text-white mb-4">Mari Terhubung</h2>
+                <h2 class="text-3xl font-bold tracking-tight text-white mb-4">Mari Terhubung dengan Saya</h2>
                 <p class="text-slate-400 mb-8">
-                    Saya terbuka untuk peluang karier sebagai *Radio Frequency Engineer*, *System Engineer*, maupun posisi teknis profesional lainnya. Silakan hubungi saya melalui email atau *linkedin*.
+                    Saya sangat antusias untuk berdiskusi mengenai peluang karier di perusahaan Anda. Hubungi saya melalui email atau LinkedIn di bawah ini.
                 </p>
                 <div class="flex flex-wrap items-center justify-center gap-4">
                     <a href="mailto:mary.alysia1424@gmail.com" class="px-6 py-3 rounded-full bg-teal-400 text-slate-950 font-bold hover:bg-teal-300 transition-all">Kirim Email</a>
@@ -257,5 +311,36 @@
         <p>&copy; 2026 Mary Alysia Suryani. Hak cipta dilindungi.</p>
     </footer>
 
+    <!-- SCRIPT JAVASCRIPT UNTUK SLIDESHOW FOTO OTOMATIS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const slides = document.querySelectorAll(".profile-slide");
+            const fallback = document.querySelector(".fallback-avatar");
+            let currentSlide = 0;
+            let loadedImages = 0;
+
+            // Cek apakah gambar berhasil dimuat
+            slides.forEach((img) => {
+                img.addEventListener("load", function() {
+                    loadedImages++;
+                    if (loadedImages > 0 && fallback) {
+                        fallback.style.display = "none";
+                    }
+                });
+                // Jika gambar error / tidak ditemukan
+                img.addEventListener("error", function() {
+                    this.style.display = "none";
+                });
+            });
+
+            if (slides.length > 0) {
+                setInterval(() => {
+                    slides[currentSlide].style.opacity = "0";
+                    currentSlide = (currentSlide + 1) % slides.length;
+                    slides[currentSlide].style.opacity = "1";
+                }, 4000); // Berganti setiap 4 detik
+            }
+        });
+    </script>
 </body>
 </html>
